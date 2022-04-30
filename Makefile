@@ -1,5 +1,5 @@
 deps:
-	echo "installing dependencies" && poetry install
+	echo "installing dependencies" && pip install -r requirements.txt
 
 test:
-	echo "running unit tests" && poetry run python -m pytest -v --failed-first --cov-report html --cov=src
+	echo "running tests" && python -m pytest -v --failed-first --cov-report html --cov=src
