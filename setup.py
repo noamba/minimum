@@ -2,8 +2,7 @@
 
 # Learn more: https://github.com/kennethreitz/setup.py
 
-from setuptools import setup
-
+from setuptools import setup, find_packages
 
 with open("README.md") as f:
     readme = f.read()
@@ -20,7 +19,8 @@ setup(
     author_email="noamba@gmail.com",
     url="https://github.com/noamba/minimum",
     license=license,
-    py_modules=["minimum", "tests"],
+    packages=find_packages(),
+    # py_modules=["minimum", "tests"],
     install_requires=[
         "pytest",
     ],
