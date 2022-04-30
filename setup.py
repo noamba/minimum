@@ -13,14 +13,14 @@ with open("LICENSE") as f:
 
 setup(
     name="minimum",
-    version="0.1.1",
+    version="0.1.2",
     description="Find the minimal element in a specific type of array",
     long_description=readme,
     author="Noam Bamberger",
     author_email="noamba@gmail.com",
     url="https://github.com/noamba/minimum",
     license=license,
-    py_modules=["minimum"],
+    py_modules=["minimum", "tests"],
     install_requires=[
         "pytest",
     ],
