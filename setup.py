@@ -2,7 +2,7 @@
 
 # Learn more: https://github.com/kennethreitz/setup.py
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 with open("README.md") as f:
