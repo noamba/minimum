@@ -13,7 +13,7 @@ with open("LICENSE") as f:
 
 setup(
     name="minimum",
-    version="0.1.0",
+    version="0.1.1",
     description="Find the minimal element in a specific type of array",
     long_description=readme,
     author="Noam Bamberger",
