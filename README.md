@@ -1,4 +1,14 @@
-### The Task
+### Intro
+This package allows finding the minimal element in a specific type of array. 
+See Task description for details. 
+
+### Installation
+
+```python
+pip install --upgrade pip git+https://github.com/noamba/minimum.git
+```
+
+### Task description 
 
 Please implement a Python module, which can be installed using pip**, including tests,
 with the following functionality:
