@@ -9,7 +9,7 @@ from minimum.minimum_cls import (
 
 
 @pytest.mark.parametrize(
-    "arr, expected_minimum",
+    "array, expected_minimum",
     [
         ([4, 3, 4], 3),
         ([5, 4, 3, 4], 3),
@@ -29,8 +29,8 @@ from minimum.minimum_cls import (
         "negative numbers",
     ],
 )
-def test_get_minimum(arr, expected_minimum):
-    assert get_minimum(arr) == expected_minimum
+def test_get_minimum(array, expected_minimum):
+    assert get_minimum(array) == expected_minimum
 
 
 class TestValidation:
