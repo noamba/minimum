@@ -1,6 +1,6 @@
 import pytest
 
-from src.minimum.minimum import (
+from minimum.minimum import (
     DOES_NOT_IMPLEMENT_LESS_THAN,
     LESS_THAN_3_ELEMENTS,
     NOT_ITERABLE,
