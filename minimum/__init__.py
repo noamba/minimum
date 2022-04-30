@@ -1,1 +1,1 @@
-from .minimum import get_minimum
+from .minimum_cls import get_minimum
