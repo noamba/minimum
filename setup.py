@@ -20,7 +20,7 @@ setup(
     author_email="noamba@gmail.com",
     url="https://github.com/noamba/minimum",
     license=license,
-    packages=find_packages(),
+    py_modules=["minimum"],
     install_requires=[
         "pytest",
     ],
