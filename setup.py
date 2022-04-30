@@ -20,7 +20,6 @@ setup(
     url="https://github.com/noamba/minimum",
     license=license,
     packages=find_packages(),
-    # py_modules=["minimum", "tests"],
     install_requires=[
         "pytest",
     ],
