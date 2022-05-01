@@ -36,14 +36,20 @@ cd minimum
 
 Create and activate a virtualenv, then issue:
 ```bash
-make deps
+make deps  # to install dependencies
 make test
+```
+
+To run nox tests (requires `python` `3.8` and `3.9`), issue:
+```bash
+nox
 ```
 
 To create an editable installation, issue:
 ```bash
 pip install -e .
 ```
+
 
 
 ### Task description 
