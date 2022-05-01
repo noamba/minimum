@@ -43,8 +43,8 @@ cd minimum
 
 Create and activate a virtualenv, then issue:
 ```bash
-make deps  # to install dependencies
-make test
+(venv)$ make deps  # to install dependencies
+(venv)$ make test
 ```
 
 This will add a `htmlcov` folder with test coverage info. 
@@ -52,12 +52,12 @@ Open the `index.html` file within that folder in a browser to view the coverage 
 
 To run nox tests (requires `python` `3.8` and `3.9`), issue:
 ```bash
-nox
+(venv)$ nox
 ```
 
 To create an editable installation, issue:
 ```bash
-pip3 install -e .
+(venv)$ pip3 install -e .
 ```
 
 
