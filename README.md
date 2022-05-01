@@ -32,7 +32,7 @@ from minimum import get_minimum
 get_minimum([5, 4, 3, 2, 3, 4])
 ```
 
-### Development install
+### Development installation
 
 Note: These instructions were tested on a `Linux` machine
 
