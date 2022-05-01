@@ -1,6 +1,8 @@
-LESS_THAN_3_ELEMENTS = "Array must be at least 3 elements long"
-NOT_ITERABLE = "is not iterable"
-DOES_NOT_IMPLEMENT_LESS_THAN = "does not implement '<'"
+from minimum.constants import (
+    LESS_THAN_3_ELEMENTS,
+    NOT_ITERABLE,
+    DOES_NOT_IMPLEMENT_LESS_THAN,
+)
 
 
 class Minimum:
@@ -9,8 +11,8 @@ class Minimum:
         self._validate()
 
     def get_minimum(self, first_index=None, last_index=None):
-        """Returns the minimal element of self.array between the two indexes:
-        first_index and last_index.
+        """Recursive method returning the minimal element of self.array between
+        the two indexes: first_index and last_index.
 
         Args:
             first_index: First index to check, defaults to None
@@ -84,5 +86,3 @@ class Minimum:
         * second_element and third_element
         """
         return first_element < second_element, second_element < third_element
-
-
