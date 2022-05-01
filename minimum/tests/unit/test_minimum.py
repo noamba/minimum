@@ -1,10 +1,10 @@
 import pytest
 
+from minimum import get_minimum
 from minimum.minimum_cls import (
     DOES_NOT_IMPLEMENT_LESS_THAN,
     LESS_THAN_3_ELEMENTS,
     NOT_ITERABLE,
-    get_minimum,
 )
 
 
