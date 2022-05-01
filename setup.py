@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Learn more: https://github.com/kennethreitz/setup.py
+from setuptools import find_packages, setup
 
-from setuptools import setup, find_packages
+from minimum._version import __version__
 
 with open("README.md") as f:
     readme = f.read()
@@ -12,7 +12,7 @@ with open("LICENSE") as f:
 
 setup(
     name="minimum",
-    version="0.1.5",
+    version=__version__,
     description="Find the minimal element in a specific type of array",
     long_description=readme,
     author="Noam Bamberger",
