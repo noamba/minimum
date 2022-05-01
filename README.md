@@ -2,18 +2,21 @@
 This package allows finding the minimal element in a specific type of array. 
 See Task description for details.
 
-### Installation
-Activated in a virtualenv, issue:
+### Package installation and tests
+To install, while activated in a virtualenv, issue:
 ```bash
-pip install --upgrade pip git+https://github.com/noamba/minimum.git
+(venv)$ pip3 install --upgrade pip git+https://github.com/noamba/minimum.git
 ```
 
-NOTE: As required in the task description, the tests are installed and can be found under `site-pacakges/minimum_tests`
+Tests are included in the package, to run them issue:
+```bash
+(venv)$ python3 -m pytest -v minimum
+```
 
 ### Usage example
 Activated in the virtualenv, issue:
 ```bash
-python3
+(venv)$ python3
 ```
 
 In the python shell, issue:
