@@ -86,5 +86,3 @@ class Minimum:
         return first_element < second_element, second_element < third_element
 
 
-def get_minimum(arr):
-    return Minimum(arr).get_minimum()

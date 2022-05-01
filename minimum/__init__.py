@@ -1,1 +1,2 @@
-from .minimum_cls import get_minimum
+from .api import get_minimum
+from ._version import __version__
