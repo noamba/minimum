@@ -12,7 +12,7 @@ OS: `Linux` and `Windows`
 ### Package installation and tests
 To install, while activated in a virtualenv, issue:
 ```bash
-(venv)$ pip3 install --upgrade pip git+https://github.com/noamba/minimum.git
+(venv)$ pip3 install --upgrade pip git+https://github.com/noamba/minimum.git@0.2.2
 ```
 
 Tests are included in the package, to run them issue:
