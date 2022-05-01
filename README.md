@@ -57,7 +57,7 @@ nox
 
 To create an editable installation, issue:
 ```bash
-pip install -e .
+pip3 install -e .
 ```
 
 
