@@ -3,7 +3,11 @@ This package allows finding the minimal element in a specific type of array.
 See Task description below for details.
 
 ### Environment
-This package has been tested in python 3.7, 3.8, 3.9 and 3.10
+This package has been tested in:
+
+`python` versions `3.6`, `3.7`, `3.8`, `3.9` and `3.10` 
+
+OS: `Linux` and `Windows`
 
 ### Package installation and tests
 To install, while activated in a virtualenv, issue:
@@ -39,6 +43,9 @@ Create and activate a virtualenv, then issue:
 make deps  # to install dependencies
 make test
 ```
+
+This will add a `htmlcov` folder with test coverage info. 
+Open the `index.html` file within that folder in a browser to view the coverage report.
 
 To run nox tests (requires `python` `3.8` and `3.9`), issue:
 ```bash
