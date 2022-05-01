@@ -9,8 +9,8 @@ class Minimum:
         self._validate()
 
     def get_minimum(self, first_index=None, last_index=None):
-        """Returns the minimal element of self.array between the two indexes:
-        first_index and last_index.
+        """Recursive method returning the minimal element of self.array between
+        the two indexes: first_index and last_index.
 
         Args:
             first_index: First index to check, defaults to None
@@ -84,5 +84,3 @@ class Minimum:
         * second_element and third_element
         """
         return first_element < second_element, second_element < third_element
-
-
