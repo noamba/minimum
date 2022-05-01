@@ -1,6 +1,6 @@
 ### Intro
 This package allows finding the minimal element in a specific type of array. 
-See Task description for details.
+See Task description below for details.
 
 ### Package installation and tests
 To install, while activated in a virtualenv, issue:
