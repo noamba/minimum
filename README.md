@@ -12,18 +12,18 @@ OS: `Linux` and `Windows`
 ### Package installation and tests
 To install, while activated in a virtualenv, issue:
 ```bash
-(venv)$ pip3 install --upgrade pip git+https://github.com/noamba/minimum.git@0.2.2
+pip3 install --upgrade pip git+https://github.com/noamba/minimum.git@0.2.2
 ```
 
 Tests are included in the package, to run them issue:
 ```bash
-(venv)$ python3 -m pytest -v --pyargs minimum
+python3 -m pytest -v --pyargs minimum
 ```
 
 ### Usage example
 Activated in the virtualenv, issue:
 ```bash
-(venv)$ python3
+python3
 ```
 
 In the python shell, issue:
@@ -43,8 +43,8 @@ cd minimum
 
 Create and activate a virtualenv, then issue:
 ```bash
-(venv)$ make deps  # to install dependencies
-(venv)$ make test
+make deps  # to install dependencies
+make test
 ```
 
 This will add a `htmlcov` folder with test coverage info. 
@@ -52,12 +52,12 @@ Open the `index.html` file within that folder in a browser to view the coverage 
 
 To run nox tests (requires `python` `3.8` and `3.9`), issue:
 ```bash
-(venv)$ nox
+nox
 ```
 
 To create an editable installation, issue:
 ```bash
-(venv)$ pip3 install -e .
+pip3 install -e .
 ```
 
 
