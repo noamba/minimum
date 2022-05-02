@@ -8,6 +8,7 @@ def tests(session):
 
 
 @nox.session
-def package_install(session):
+def package_install_and_test(session):
     # same as pip install .
     session.install(".")
+    session.run("pytest", "--pyargs", "minimum")
