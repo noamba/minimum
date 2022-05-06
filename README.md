@@ -12,18 +12,18 @@ OS: `Linux` and `Windows`
 ### Package installation and tests
 To install, while activated in a virtualenv, issue:
 ```bash
-pip3 install --upgrade pip git+https://github.com/noamba/minimum.git@0.2.2
+pip install --upgrade pip git+https://github.com/noamba/minimum.git@0.2.2
 ```
 
 Tests are included in the package, to run them issue:
 ```bash
-python3 -m pytest -v --pyargs minimum
+python -m pytest -v --pyargs minimum
 ```
 
 ### Usage example
 Activated in the virtualenv, issue:
 ```bash
-python3
+python
 ```
 
 In the python shell, issue:
@@ -57,7 +57,7 @@ nox
 
 To create an editable installation, issue:
 ```bash
-pip3 install -e .
+pip install -e .
 ```
 
 
